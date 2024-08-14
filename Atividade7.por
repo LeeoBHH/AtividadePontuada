@@ -1,35 +1,39 @@
 programa {
   funcao inicio() {
 //Declarando variaveis
-cadeia produto, quantidade
-real preco, total, desconto, total_a_pagar, quantidade_prod
-
+cadeia produto
+real preco, total, desconto=0, total_a_pagar
+inteiro quantidade
 //Coletando dados
 escreva("Qual o produto desejado?: ")
 leia(produto)
 escreva("Qual a quantidade desejada?: ")
 leia(quantidade)
-//Calculando
-total = (quantidade_prod * preco)
-total_a_pagar = (total - desconto)
+escreva("Qual o pre√ßo do produto? ")
+leia(preco)
 
-se (quantidade_prod <=5){
-    desconto = total * 0.02
+//Calculando
+
+
+se (quantidade <=5){
+    desconto = preco * 0.02
 }
 
-se (quantidade_prod > 5 e quantidade_prod <=10){
-    desconto = total * 0.03
+se (quantidade > 5 e quantidade <=10){
+    desconto = preco * 0.03
 }    
 
-se (quantidade_prod > 10){
-    desconto = total * 0.10
-}    
+se (quantidade > 10){
+    desconto = preco * 0.10
+}
 
-  
- 
-
+total = preco - desconto     
+total_a_pagar = total * quantidade
 //Exibindo resultados
-escreva("\nDescriÁ„o do produto: " + produto)
+escreva("\nValor a pagar: " + total_a_pagar)
     
+                                                                         //escreva("\nDescri√ß√£o do produto: " + produto)
+                                                                         //escreva("\nValor a pagar com desconto: " + desconto)
+
   }
 }
