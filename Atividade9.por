@@ -1,0 +1,25 @@
+programa {
+  funcao inicio() {
+//Declarando variaveis
+inteiro renda, emprestimo, prestacao, renda10, prestacao_maxima
+
+//Coletando
+escreva("Digite sua renda mensal: ")
+leia(renda)
+escreva("Digite o valor total do emprestimo solicitado: ")
+leia(emprestimo)
+escreva("Número de prestações que deseja pagar: ")
+leia(prestacao)
+
+//Calculando
+renda10 = renda * 10
+prestacao = renda * 0.30
+
+se (emprestimo <= renda10 e prestacao <= prestacao_maxima) escreva("Emprestimo solicitado.")
+ senao escreva("Emprestimo negado.")
+
+
+
+//Exibindo resultados
+  }
+}
