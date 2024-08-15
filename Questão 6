@@ -15,8 +15,8 @@ leia(nota2)
 //Calculando
 media = (nota1 + nota2 / 2)
 
-se (media > 6) escreva("Parabéns, você foi aprovado!")
-se (media < 4) escreva("Você foi reprovado.")
+se (media > 6) escreva("ParabÃ©ns, vocÃª foi aprovado!")
+se (media < 4) escreva("VocÃª foi reprovado.")
 
 //Exibindo resultados
 
