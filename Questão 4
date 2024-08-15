@@ -10,7 +10,7 @@ real valor_pagamento
 //Coletando dados
 escreva("Quantidade de morangos(kg): ")
 leia(morango_qnt)
-escreva("Quantidade de maçãs(kg): ")
+escreva("Quantidade de maÃ§Ã£s(kg): ")
 leia(maca_qnt)
 
 valor_morango5 = 2.50
