@@ -4,7 +4,7 @@ programa {
 cadeia cd
 real verde, azul, amarelo, vermelho
 //Coletando dados
-escreva("Digite a cor desejada: ")
+escreva("Digite a cor para visualizar o preço do CD: ")
 leia(cd)
 
 //Calculando
