@@ -13,8 +13,8 @@ leia(valor3)
 
 //Calculando
 soma = valor1 + valor2
-se (soma < valor3) escreva("\nA soma é menor que o valor 3")
-       senao escreva("\nA soma é maior que o valor 3")
+se (soma < valor3) escreva("\nA soma Ã© menor que o valor 3")
+       senao escreva("\nA soma Ã© maior que o valor 3")
 
 //Exibindo resultados
   }
