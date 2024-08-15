@@ -36,9 +36,9 @@ final_gasolina = gasolina_resultado * litros
 final_alcool = alcool_resultado * litros
 //Exibindo resultados
 se(combustivel == "G")
-escreva("O valor a ser pago pelo alcool é de: " + final_alcool)
+escreva("O valor a ser pago pelo alcool Ã© de: " + final_alcool)
 se(combustivel == "A")
-escreva("O valor a ser pago pela gasolina é de: " + final_gasolina)   
+escreva("O valor a ser pago pela gasolina Ã© de: " + final_gasolina)   
 
   }
 }
