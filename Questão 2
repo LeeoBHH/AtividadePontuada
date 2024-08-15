@@ -9,7 +9,7 @@ caracter sexo
 //Coletando dados
 escreva("Digite seu nome: ")
 leia(nome)
-escreva("Digite seu estado cívil: ")
+escreva("Digite seu estado cÃ­vil: ")
 leia(estado_civil)
 escreva("Digite seu sexo: ")
 leia(sexo)
@@ -21,7 +21,7 @@ escreva("\nTempo de casada: ")
 leia(tempo)
 escreva("\nDados disponibilizados: ")
 escreva("\nNome: " + nome)
-escreva("\nEstado Cívil: " + estado_civil)
+escreva("\nEstado CÃ­vil: " + estado_civil)
 escreva("\nSexo: " + sexo)
 escreva("\nTempo de casada: " + tempo)
 }senao{ 
