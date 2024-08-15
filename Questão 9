@@ -8,7 +8,7 @@ escreva("Digite sua renda mensal: ")
 leia(renda)
 escreva("Digite o valor total do emprestimo solicitado: ")
 leia(emprestimo)
-escreva("Número de prestações que deseja pagar: ")
+escreva("NÃºmero de prestaÃ§Ãµes que deseja pagar: ")
 leia(prestacao)
 
 //Calculando
