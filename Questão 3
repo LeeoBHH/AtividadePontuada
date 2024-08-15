@@ -15,8 +15,8 @@ soma = valor1 + valor2
 multiplicacao = valor1 * valor2
 
 se (valor1 == valor2)
-escreva("A soma dos valores é igual a: " + soma)
- senao escreva("A multiplicação dos valores é igual a: " + multiplicacao)
+escreva("A soma dos valores Ã© igual a: " + soma)
+ senao escreva("A multiplicaÃ§Ã£o dos valores Ã© igual a: " + multiplicacao)
 
 //Exibindo resultados
   }
